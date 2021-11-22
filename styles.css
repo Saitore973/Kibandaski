@@ -57,3 +57,18 @@ html{
     background-color: rgb(201, 86, 45);
     color: white;
 }
+
+.imagez{
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.imagez .plates{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 55.5%   ;
+}
