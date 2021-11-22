@@ -47,4 +47,13 @@ html{
 
 .heropg p{
     line-height: 30px;
+    padding: 20px;
+}
+
+.heropg button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(201, 86, 45);
+    color: white;
 }
