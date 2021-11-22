@@ -1,0 +1,35 @@
+html{
+
+}
+.container{
+    background-color: aquamarine;
+}
+
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container .logo{
+    float: left;
+    padding: 30px;    
+}
+ .container nav{
+     float: right;
+     
+     
+}
+
+.container nav ul{
+    list-style: none;
+}
+
+.container nav ul li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+}
