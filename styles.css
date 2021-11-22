@@ -59,9 +59,12 @@ html{
 }
 
 .imagez{
-    background-color: violet;
+   
     display: flex;
     justify-content: space-between;
+    float: left;
+ 
+   
     
     
 }
@@ -70,5 +73,19 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 55.5%   ;
+    padding-left: 30px ;
+    
+}
+
+.about{
+    background-color: yellowgreen;
+    float: right;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+    padding: 50px;
+}
+.about h1{
+    color: rgb(50, 86, 205);
+    padding: 50px;
 }
