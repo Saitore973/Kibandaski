@@ -1,5 +1,5 @@
 html{
-
+margin: 1%;
 }
 .container{
     
@@ -112,3 +112,119 @@ html{
     display: table;
     clear: both;
 }
+
+.ourmenu{
+    text-align: center;
+}
+
+.ourmenu hr{
+    width: 140px;
+    height: 1px;
+    background-color: rgb(201, 86, 45);
+}
+
+.menu{
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.menu1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 130px;
+}
+
+.menu1 .ball1{
+    background-color: white;
+    border: none;
+}
+
+.menu2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 130px;
+}
+
+.menu1 .ball2{
+    background-color: white;
+    border: none;
+}
+
+.menu .ball1 .icon{
+    color: rgb(201, 86, 45);
+}
+
+.menu .ball2 .icon{
+    color: rgb(201, 86, 45);
+}
+
+.menu .ball1  .dollar{
+    background-color: rgb(201, 86, 45);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.menu .ball2  .dollar{
+    background-color: rgb(201, 86, 45);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.menu .ball1  .order{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(243, 220, 212);
+    color: rgb(201, 86, 45);
+}
+
+.menu .ball2  .order{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(243, 220, 212);
+    color:rgb(201, 86, 45);
+}
+
+
+.menu .explore{
+    padding: 15px 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(201, 86, 45);
+    color: white;
+    margin-left: 45%;
+}
+
+.part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 180px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 180px;
+}
+
+.part1 h1, p{
+    text-align: center;
+}
+
+.part2 h1, p{
+    text-align: center;
+}
+
+
+
+
+
