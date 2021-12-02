@@ -1,56 +1,62 @@
-html{
-margin: 1%;
-}
-.container{
-    
+html {
+    margin: 1%;
 }
 
-.container::after{
+.container {}
+
+.home {
+    background-image: url(./images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container::after {
     content: '';
     display: table;
     clear: both;
 }
 
-.container .logo{
+.container .logo {
     float: left;
-    padding: 30px;    
-}
- .container nav{
-     float: right;
-     
-     
+    padding: 30px;
 }
 
-.container nav ul{
+.container nav {
+    float: right;
+
+
+}
+
+.container nav ul {
     list-style: none;
 }
 
-.container nav ul li{
+.container nav ul li {
     display: inline-block;
     padding: 30px;
 }
 
-.container nav ul li a{
+.container nav ul li a {
     text-decoration: none;
 }
 
-.heropg{
-    
+.heropg {
+
     text-align: center;
     padding: 130px;
 }
 
-.heropg h1{
+.heropg h1 {
 
     padding: 40px;
 }
 
-.heropg p{
+.heropg p {
     line-height: 30px;
     padding: 20px;
 }
 
-.heropg button{
+.heropg button {
     padding: 15px 30px;
     border-radius: 20px;
     border: none;
@@ -58,125 +64,129 @@ margin: 1%;
     color: white;
 }
 
-.us .imagez{
-   
+.us .imagez {
+
     display: flex;
     justify-content: space-between;
     float: left;
- 
-   
-    
-    
+
+
+
+
 }
 
-.us .imagez .plates{
+.us .imagez .plates {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 30px ;
-    
+    padding-left: 30px;
+
 }
 
-.us .about{
-   
+.us .about {
+
     float: right;
     font-size: 30px;
-    
+
     line-height: 45px;
     padding: 50px;
 }
-.us .about h1{
-    
+
+.us .about h1 {
+
     padding: 30px;
     text-align: center;
 }
 
-.us .about button{
+.us .about button {
     padding: 15px 35px;
     border-radius: 20px;
     border: none;
     background-color: rgb(201, 86, 45);
     color: white;
-    
+
 }
-.us{
+
+.us {
     margin: 50px;
 }
-.us hr{
+
+.us hr {
     width: 140px;
     height: 1px;
     background-color: rgb(201, 86, 45);
 }
-.us::after{
+
+.us::after {
     content: '';
     display: table;
     clear: both;
 }
 
-.ourmenu{
+.ourmenu {
     text-align: center;
 }
 
-.ourmenu hr{
+.ourmenu hr {
     width: 140px;
     height: 1px;
     background-color: rgb(201, 86, 45);
 }
 
-.menu{
+.menu {
     background-color: whitesmoke;
     padding: 50px;
 }
 
-.menu1{
-    
+.menu1 {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 70px 130px;
 }
 
-.menu1 .ball1{
+.menu1 .ball1 {
     background-color: white;
     border: none;
 }
 
-.menu2{
-    
+.menu2 {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 70px 130px;
 }
 
-.menu1 .ball2{
+.menu1 .ball2 {
     background-color: white;
     border: none;
 }
 
-.menu .ball1 .icon{
+.menu .ball1 .icon {
     color: rgb(201, 86, 45);
 }
 
-.icon{
+.icon {
     color: rgb(201, 86, 45);
 }
 
-.menu .ball1  .dollar{
+.menu .ball1 .dollar {
     background-color: rgb(201, 86, 45);
     color: white;
     padding: 5px 10px;
     border: none;
 }
 
-.menu .ball2  .dollar{
+.menu .ball2 .dollar {
     background-color: rgb(201, 86, 45);
     color: white;
     padding: 5px 10px;
     border: none;
 }
 
-.menu .ball1  .order{
+.menu .ball1 .order {
     padding: 10px 25px;
     border-radius: 20px;
     border: none;
@@ -184,20 +194,20 @@ margin: 1%;
     color: rgb(201, 86, 45);
 }
 
-.menu .ball2  .order{
+.menu .ball2 .order {
     padding: 10px 25px;
     border-radius: 20px;
     border: none;
     background-color: rgb(243, 220, 212);
-    color:rgb(201, 86, 45);
+    color: rgb(201, 86, 45);
 }
 
-.reviews{
+.reviews {
     padding: 80px;
 }
 
 
-.menu .explore{
+.menu .explore {
     padding: 15px 35px;
     border-radius: 20px;
     border: none;
@@ -206,14 +216,14 @@ margin: 1%;
     margin-left: 45%;
 }
 
-.part1{
+.part1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 70px 180px;
 }
 
-.part2{
+.part2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -224,65 +234,130 @@ margin: 1%;
     text-align: center;
 }
 
-.part2 h1{
+.part2 h1 {
     text-align: center;
 }
 
-.part1 .serv{
-    
+.part1 .serv {
+
     text-align: center;
 }
 
-.part2 .serv{
-    
+.part2 .serv {
+
     text-align: center;
 }
 
-.listen{
+.listen {
+    width: 50%;
+    margin: 0 auto;
     text-align: center;
+
 }
 
+.comments {
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+}
 
-.listen hr{
+.rahim {
+    background-color: white;
+    padding: 50px;
+}
+
+.usman {
+    background-color: white;
+    padding: 50px;
+}
+
+.wali {
+    background-color: white;
+    padding: 50px;
+}
+
+.listen hr {
     width: 140px;
     height: 1px;
     background-color: rgb(201, 86, 45);
 }
 
-.people{
+.people {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 70px 180px;
 }
 
-.people p{
+.people p {
     text-align: center;
 }
 
-.people h2{
+.people h2 {
     text-align: center;
 }
 
-.people .peep{
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-     width: 50%;
-}
+.people .peep {
 
-.sat{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-#name{
-    background-color: tomato;
-    padding: 50px 280px;
+.sat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
+.form {
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    width: 50%
+}
 
+#name {
 
+    padding: 15px;
+    width: 74%;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 15px;
+
+}
+
+#fom {
+
+    margin-top: 10px;
+    width: 35%;
+    padding: 15px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 15px;
+}
+
+#message {
+    padding: 15px;
+    padding-bottom: 95px;
+    width: 74.5%;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 15px;
+
+}
+
+.book {
+    padding: 15px 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(201, 86, 45);
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
